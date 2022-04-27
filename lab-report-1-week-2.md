@@ -1,4 +1,4 @@
-1. Installing VScode: I installed the vs code by clicking a link of their website. Then a document is in my download and I just opened it and install it.
+1. Installing VScode: I installed the vs code by clicking a link of their website. Then a document is in my download and I just opened it and install it. ![image](vscode.png)
 2. Remotely Connecting: I usd ssh  cs15lsp22axe@ieng6.ucsd.edu which includes my own account name and ucsd to be connected remotely.
 3. Trying Some Commandsz: I tried ls, it made me see the files on my computer. Then ls -la, it shows more specifically with time and ls -lat it shows those files order by time.
 4. Moving Files with scp: At first, my file was not on the right directory. So I use the command cd with the file name and direct to the correct file step by step. 
