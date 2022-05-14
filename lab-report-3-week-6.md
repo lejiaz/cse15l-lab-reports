@@ -18,3 +18,4 @@ git commit
 ![image](c.png)
 # Copy whole directories with scp -r
 ![image](d.png)
+ls; cd markdownmarkdown-parser-main; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest;
