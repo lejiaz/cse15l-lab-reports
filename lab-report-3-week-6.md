@@ -23,5 +23,15 @@ git commit
 # Copy whole directories with scp -r
 ![image](d.png)
 
+`scp -r *.java *.md lib/ <hostname>:markdown-parse`
+
 in one line:
-ls; cd markdownmarkdown-parser-main/; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest;
+`ls; cd markdownmarkdown-parser-main/; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest;`
+![image](md.png)
+
+
+We can run multiple commands in one line using the `;` operand we will `scp` and `ssh` and run all in one go
+
+`scp -r *.java *.md lib/ school:~/markdown-parse; ssh school "cd markdown-parse; /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-se-14/jdk-14.0.2/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`
+
+
